@@ -7,6 +7,8 @@
 
         public int OwnerId { get; set; }
 
+        public string Breed { get; set; }
+
         public Owner Owner { get; set; }
     }
 }
